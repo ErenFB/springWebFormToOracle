@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Subscriber Form</title>
+</head>
+<body>
+<h1>Subscriber Form</h1>
+<form action="/saveSubscriber" method="post">
+    <label for="subscName">Name: </label>
+    <input type="text" id="subscName" name="subscName"><br>
+
+    <label for="subscSurname">Surname: </label>
+    <input type="text" id="subscSurname" name="subscSurname"><br>
+
+    <label for="msisdn">MSISDN: </label>
+    <input type="text" id="msisdn" name="msisdn"><br>
+
+    <label for="tariffId">Tariff ID: </label>
+    <input type="text" id="tariffId" name="tariffId"><br>
+
+    <button type="submit">Kaydet</button>
+</form>
+</body>
+</html>
